@@ -1,12 +1,12 @@
 {
-  "uid" : "54bc88669842b37d",
+  "uid" : "f43cfb084d0edac6",
   "name" : "test_hogwards",
   "fullName" : "testproject.test_feladat1.TestFeladat1#test_hogwards",
   "historyId" : "6d1926f8ae4219fa849a1e590cde2a62",
   "time" : {
-    "start" : 1629820875603,
-    "stop" : 1629820878078,
-    "duration" : 2475
+    "start" : 1629821256129,
+    "stop" : 1629821258482,
+    "duration" : 2353
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f5d32ddf1473e0fe",
+      "uid" : "12c6a778fd4ba5ed",
       "name" : "log",
-      "source" : "f5d32ddf1473e0fe.txt",
+      "source" : "12c6a778fd4ba5ed.txt",
       "type" : "text/plain",
       "size" : 642
     }, {
-      "uid" : "437fbdf4f0ac9524",
+      "uid" : "7566a6855c833db8",
       "name" : "stderr",
-      "source" : "437fbdf4f0ac9524.txt",
+      "source" : "7566a6855c833db8.txt",
       "type" : "text/plain",
       "size" : 435
     } ],
@@ -46,10 +46,10 @@
     "value" : "TestFeladat1"
   }, {
     "name" : "host",
-    "value" : "fv-az28-515"
+    "value" : "fv-az83-6"
   }, {
     "name" : "thread",
-    "value" : "3229-MainThread"
+    "value" : "3159-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "54bc88669842b37d.json",
+  "source" : "f43cfb084d0edac6.json",
   "parameterValues" : [ ]
 }

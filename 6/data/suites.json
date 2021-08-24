@@ -8,13 +8,13 @@
         "name" : "TestFeladat1",
         "children" : [ {
           "name" : "test_hogwards",
-          "uid" : "54bc88669842b37d",
+          "uid" : "f43cfb084d0edac6",
           "parentUid" : "551db1c2e75a1db0637924bd3e347b3b",
           "status" : "passed",
           "time" : {
-            "start" : 1629820875603,
-            "stop" : 1629820878078,
-            "duration" : 2475
+            "start" : 1629821256129,
+            "stop" : 1629821258482,
+            "duration" : 2353
           },
           "flaky" : false,
           "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "test_feladat2",
       "children" : [ {
         "name" : "test_salestax",
-        "uid" : "2fdc015e45fa2aba",
+        "uid" : "f4fe43122d7f6b0",
         "parentUid" : "c7216ac47f6feab5d5db7e2160eba171",
         "status" : "passed",
         "time" : {
-          "start" : 1629820878137,
-          "stop" : 1629820880908,
-          "duration" : 2771
+          "start" : 1629821258541,
+          "stop" : 1629821261418,
+          "duration" : 2877
         },
         "flaky" : false,
         "newFailed" : false,

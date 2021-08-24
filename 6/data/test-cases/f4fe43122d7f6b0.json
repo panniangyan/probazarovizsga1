@@ -1,12 +1,12 @@
 {
-  "uid" : "2fdc015e45fa2aba",
+  "uid" : "f4fe43122d7f6b0",
   "name" : "test_salestax",
   "fullName" : "testproject.test_feladat2#test_salestax",
   "historyId" : "431a584e2843092d07417805ed4286ea",
   "time" : {
-    "start" : 1629820878137,
-    "stop" : 1629820880908,
-    "duration" : 2771
+    "start" : 1629821258541,
+    "stop" : 1629821261418,
+    "duration" : 2877
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "802b139bf543dba4",
+      "uid" : "bcf3d0847e61ceb4",
       "name" : "log",
-      "source" : "802b139bf543dba4.txt",
+      "source" : "bcf3d0847e61ceb4.txt",
       "type" : "text/plain",
       "size" : 344
     }, {
-      "uid" : "8248327a5fe824cd",
+      "uid" : "e73ef7cb3f563e11",
       "name" : "stderr",
-      "source" : "8248327a5fe824cd.txt",
+      "source" : "e73ef7cb3f563e11.txt",
       "type" : "text/plain",
       "size" : 215
     } ],
@@ -43,10 +43,10 @@
     "value" : "test_feladat2"
   }, {
     "name" : "host",
-    "value" : "fv-az28-515"
+    "value" : "fv-az83-6"
   }, {
     "name" : "thread",
-    "value" : "3229-MainThread"
+    "value" : "3159-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -70,6 +70,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2fdc015e45fa2aba.json",
+  "source" : "f4fe43122d7f6b0.json",
   "parameterValues" : [ ]
 }
