@@ -1,0 +1,75 @@
+{
+  "uid" : "9282bc1c794fb7fd",
+  "name" : "test_timesheet",
+  "fullName" : "testproject.test_feladat3#test_timesheet",
+  "historyId" : "87801247935c9bef293d7e04c70914e7",
+  "time" : {
+    "start" : 1629822611063,
+    "stop" : 1629822614652,
+    "duration" : 3589
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "275d08602608db1f",
+      "name" : "log",
+      "source" : "275d08602608db1f.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "5b5d2da16c346153",
+      "name" : "stderr",
+      "source" : "5b5d2da16c346153.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_feladat3"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-622"
+  }, {
+    "name" : "thread",
+    "value" : "3128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_feladat3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9282bc1c794fb7fd.json",
+  "parameterValues" : [ ]
+}

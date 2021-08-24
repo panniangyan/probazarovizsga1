@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 24 16:30:11 GMT 2021","Tue Aug 24 16:30:14 GMT 2021","3589","testproject","test_feladat3","","","","test_timesheet",""
+"passed","Tue Aug 24 16:30:16 GMT 2021","Tue Aug 24 16:30:17 GMT 2021","765","testproject","test_feladat5","","","","test_landtransfertax",""
+"passed","Tue Aug 24 16:30:14 GMT 2021","Tue Aug 24 16:30:16 GMT 2021","2117","testproject","test_feladat4","","","","test_lottery",""
+"passed","Tue Aug 24 16:30:07 GMT 2021","Tue Aug 24 16:30:11 GMT 2021","3721","testproject","test_feladat2","","","","test_salestax",""
+"passed","Tue Aug 24 16:30:04 GMT 2021","Tue Aug 24 16:30:07 GMT 2021","2586","testproject","test_feladat1","TestFeladat1","","","test_hogwards",""

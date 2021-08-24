@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "testproject",
+    "children" : [ {
+      "name" : "test_feladat1",
+      "children" : [ {
+        "name" : "TestFeladat1",
+        "children" : [ {
+          "name" : "test_hogwards",
+          "uid" : "4f6dd55b7a5d776f",
+          "parentUid" : "551db1c2e75a1db0637924bd3e347b3b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629822604691,
+            "stop" : 1629822607277,
+            "duration" : 2586
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "551db1c2e75a1db0637924bd3e347b3b"
+      } ],
+      "uid" : "23cdd5d3e3fe8f669d00f92f3575146c"
+    }, {
+      "name" : "test_feladat2",
+      "children" : [ {
+        "name" : "test_salestax",
+        "uid" : "427ec7d299f22d5b",
+        "parentUid" : "c7216ac47f6feab5d5db7e2160eba171",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629822607338,
+          "stop" : 1629822611059,
+          "duration" : 3721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7216ac47f6feab5d5db7e2160eba171"
+    }, {
+      "name" : "test_feladat3",
+      "children" : [ {
+        "name" : "test_timesheet",
+        "uid" : "9282bc1c794fb7fd",
+        "parentUid" : "98023e49c91266f0a5d08df70f5b6b83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629822611063,
+          "stop" : 1629822614652,
+          "duration" : 3589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98023e49c91266f0a5d08df70f5b6b83"
+    }, {
+      "name" : "test_feladat4",
+      "children" : [ {
+        "name" : "test_lottery",
+        "uid" : "ef70ecfa4f4f91a9",
+        "parentUid" : "65ae6138d13957ccfc8c2e59f5138e31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629822614655,
+          "stop" : 1629822616772,
+          "duration" : 2117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65ae6138d13957ccfc8c2e59f5138e31"
+    }, {
+      "name" : "test_feladat5",
+      "children" : [ {
+        "name" : "test_landtransfertax",
+        "uid" : "8ccd0f0aad0b5b35",
+        "parentUid" : "54353b2be968bdec3fe75da52f9bc48c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629822616775,
+          "stop" : 1629822617540,
+          "duration" : 765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54353b2be968bdec3fe75da52f9bc48c"
+    } ],
+    "uid" : "6aa08bfe2a13391195b08fb6547eb0ba"
+  } ],
+  "name" : "suites"
+}
