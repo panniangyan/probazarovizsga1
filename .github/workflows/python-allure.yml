@@ -1,7 +1,4 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: Python application
+name: Python CI-CD with allure report
 
 on:
   push:
@@ -29,6 +26,7 @@ jobs:
    
     - name: Install dependencies
       run: |
+        '/opt/hostedtoolcache/Python/3.9.5/x64/bin/python -m pip install --upgrade pip'
         python -m pip install --upgrade pip
         python -m pip install flake8 pytest
         if [ -f testproject/requirements.txt ]; then pip install -r testproject/requirements.txt; fi
