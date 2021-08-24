@@ -2,26 +2,20 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
+# feladat URL-je
+URL = "https://witty-hill-0acfceb03.azurestaticapps.net/hogwards.html"
+
+
 class TestFeladat1(object):
     def setup(self):
-        self.browser = webdriver.Chrome("/usr/bin/chromedriver")
-        self.browser.get("http://webshop.progmasters.hu")
+        self.browser = webdriver.Chrome(ChromeDriverManager().install())
+        self.browser.get(URL)
 
     def teardown(self):
         self.browser.quit()
 
-
     def test_hogwards(self):
-
-    # feladat URL-je
-        URL = "https://witty-hill-0acfceb03.azurestaticapps.net/hogwards.html"
-
-    # oldal betöltése
-        self.browser = webdriver.Chrome(ChromeDriverManager().install())
-        self.browser.maximize_window()
-        self.browser.get(URL)
-
-# # utas adatai
+        # # utas adatai
         passenger_name = "Harry Potter"
         departure_date = "08/09/2021"
         departure_time = "0800AM"
