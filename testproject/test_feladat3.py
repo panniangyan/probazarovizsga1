@@ -15,7 +15,6 @@ def test_timesheet():
     browser.get(URL)
 
     # TC01 üres kitöltés helyessége
-
     next_btn = browser.find_element_by_xpath('//*[@id="buttons"]/input')
     assert next_btn.get_attribute("disabled")
 
