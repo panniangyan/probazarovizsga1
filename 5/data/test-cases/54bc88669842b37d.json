@@ -1,0 +1,78 @@
+{
+  "uid" : "54bc88669842b37d",
+  "name" : "test_hogwards",
+  "fullName" : "testproject.test_feladat1.TestFeladat1#test_hogwards",
+  "historyId" : "6d1926f8ae4219fa849a1e590cde2a62",
+  "time" : {
+    "start" : 1629820875603,
+    "stop" : 1629820878078,
+    "duration" : 2475
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5d32ddf1473e0fe",
+      "name" : "log",
+      "source" : "f5d32ddf1473e0fe.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "437fbdf4f0ac9524",
+      "name" : "stderr",
+      "source" : "437fbdf4f0ac9524.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_feladat1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFeladat1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3229-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_feladat1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54bc88669842b37d.json",
+  "parameterValues" : [ ]
+}

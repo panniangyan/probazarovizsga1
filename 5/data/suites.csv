@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 24 16:01:18 GMT 2021","Tue Aug 24 16:01:20 GMT 2021","2771","testproject","test_feladat2","","","","test_salestax",""
+"passed","Tue Aug 24 16:01:15 GMT 2021","Tue Aug 24 16:01:18 GMT 2021","2475","testproject","test_feladat1","TestFeladat1","","","test_hogwards",""

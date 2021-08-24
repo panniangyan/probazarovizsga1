@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2fdc015e45fa2aba",
+  "name" : "test_salestax",
+  "time" : {
+    "start" : 1629820878137,
+    "stop" : 1629820880908,
+    "duration" : 2771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54bc88669842b37d",
+  "name" : "test_hogwards",
+  "time" : {
+    "start" : 1629820875603,
+    "stop" : 1629820878078,
+    "duration" : 2475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
