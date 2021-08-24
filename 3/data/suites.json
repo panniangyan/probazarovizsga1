@@ -8,12 +8,12 @@
         "name" : "TestFeladat1",
         "children" : [ {
           "name" : "test_hogwards",
-          "uid" : "fe5af6f6fbd6bea5",
+          "uid" : "564f92d68557d3a9",
           "parentUid" : "551db1c2e75a1db0637924bd3e347b3b",
           "status" : "broken",
           "time" : {
-            "start" : 1629818497669,
-            "stop" : 1629818497669,
+            "start" : 1629818703067,
+            "stop" : 1629818703067,
             "duration" : 0
           },
           "flaky" : false,
