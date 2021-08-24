@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-import pytest
+
 
 # feladat URL-je
 URL = "https://witty-hill-0acfceb03.azurestaticapps.net/salestax.html"
