@@ -13,7 +13,6 @@ def test_salestax():
     browser_options = Options()
     browser_options.headless = True
     browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
-    browser.maximize_window()
     browser.get(URL)
 
 
