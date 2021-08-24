@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
@@ -8,8 +9,11 @@ URL = "https://witty-hill-0acfceb03.azurestaticapps.net/hogwards.html"
 
 class TestFeladat1(object):
     def setup(self):
-        self.browser = webdriver.Chrome(ChromeDriverManager().install())
+        browser_options = Options()
+        browser_options.headless = True
+        self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get(URL)
+        time.sleep(1)
 
     def teardown(self):
         self.browser.quit()
@@ -30,7 +34,6 @@ class TestFeladat1(object):
 
         departure_date = "2021-08-09"
         departure_time = "08:00AM"
-
 
         assert self.browser.find_element_by_id("passenger-name").text == passenger_name.upper()
         assert self.browser.find_element_by_id("departure-date-text").text == departure_date
