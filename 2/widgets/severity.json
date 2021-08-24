@@ -1,0 +1,11 @@
+[ {
+  "uid" : "fe5af6f6fbd6bea5",
+  "name" : "test_hogwards",
+  "time" : {
+    "start" : 1629818497669,
+    "stop" : 1629818497669,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

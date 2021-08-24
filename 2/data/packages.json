@@ -4,13 +4,13 @@
     "name" : "testproject.test_feladat1",
     "children" : [ {
       "name" : "test_hogwards",
-      "uid" : "b6bdf749b566710c",
+      "uid" : "fe5af6f6fbd6bea5",
       "parentUid" : "d2dc47ed832d7c6d1ac33c1fc449667a",
       "status" : "broken",
       "time" : {
-        "start" : 1629817899461,
-        "stop" : 1629817906381,
-        "duration" : 6920
+        "start" : 1629818497669,
+        "stop" : 1629818497669,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
